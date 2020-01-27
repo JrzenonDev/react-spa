@@ -1,0 +1,111 @@
+/* Geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.nav {
+    background: #000;
+}
+
+.nav a:hover {
+    background-color: #666;
+}
+
+/*Small Smartphones*/
+@media screen and (max-width: 480px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        order: 2;
+    }
+
+    .nav a {
+        width: 100%;
+    }
+
+    .buttonMob {
+        order: 1;
+        text-align: right;
+        padding: 5px 5% 5px 0;
+    }
+
+}
+
+/*Medium Smartphones*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .nav a {
+        width: 100%;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        order: 2;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonMob {
+        order: 1;
+        text-align: right;
+        padding: 5px 5% 5px 0;
+    }
+}
+
+/*Large Smartphones and Small notebooks*/
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    .nav {
+        display: flex;
+    }
+
+    .nav a {
+        width: 25%;
+    }
+
+    .buttonMob {
+        display: none;
+    }
+}
+
+/*XLarges screens */
+@media screen and (min-width: 1200px) {
+
+    .nav {
+        display: flex;
+    }
+
+    .nav a {
+        width: 25%;
+    }
+
+    .buttonMob {
+        display: none;
+    }
+
+}
