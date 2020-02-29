@@ -32,7 +32,9 @@ a {
 
     .header {
         display: flex;
+        background: #efefef;
         flex-direction: column;
+        margin-bottom: 15px;
     }
 
     .nav {
@@ -74,6 +76,12 @@ a {
         font-size: 27px;
     }
 
+    .image-gallery {
+        float: left;
+        width: 90%;
+        margin: 0 5%;
+    }
+
 }
 
 /*Medium Smartphones*/
@@ -91,7 +99,9 @@ a {
 
     .header {
         display: flex;
+        background: #efefef;
         flex-direction: column;
+        margin-bottom: 15px;
     }
 
     .buttonMob {
@@ -123,10 +133,24 @@ a {
         font-size: 27px;
     }
 
+    .image-gallery {
+        float: left;
+        width: 80%;
+        margin: 0 10%;
+    }
+
 }
 
 /*Large Smartphones and Small notebooks*/
 @media screen and (min-width: 769px) and (max-width: 1199px) {
+    .header {
+        float: left;
+        width: 100%;
+        background: #efefef;
+        box-shadow: 0 2px 10px #999999;
+        margin-bottom: 25px;
+    }
+
     .nav {
         display: flex;
     }
@@ -161,11 +185,26 @@ a {
         color: #00d92b;
         font-size: 27px;
     }
+
+    .image-gallery {
+        float: left;
+        width: 42%;
+        margin: 0 4%;
+    }
+
 }
 
 /*XLarges screens */
 @media screen and (min-width: 1200px) {
 
+    .header {
+        float: left;
+        width: 100%;
+        background: #efefef;
+        box-shadow: 0 2px 10px #999999;
+        margin-bottom: 25px;
+    }
+
     .nav {
         display: flex;
     }
@@ -184,6 +223,10 @@ a {
         padding: 15px 0 15px 10%;
     }
 
+    .logo img {
+        width: 150px;
+    }
+
     .address {
         float: left;
         width: 70%;
@@ -199,6 +242,12 @@ a {
     .address strong {
         color: #00d92b;
         font-size: 27px;
+    }
+
+    .image-gallery {
+        float: left;
+        width: 36%;
+        margin: 0 7%;
     }
 
 }
