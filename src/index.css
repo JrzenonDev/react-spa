@@ -60,6 +60,29 @@ a {
     border: none;
 }
 
+.footer img {
+    filter: saturate(32%) invert(87%) drop-shadow(5px -14px 7px #0000ff);
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background: #2296d3;
+    padding: 15px 5%;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.footer div:nth-child(1){
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer div:nth-child(2){
+    flex-grow: 5;
+    color: #fff;
+}
+
 /*Small Smartphones*/
 @media screen and (max-width: 480px) {
 
@@ -115,6 +138,11 @@ a {
 
     .information li {
         background: url('/img/seta-direita.png') no-repeat left center;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
     }
 
 }
