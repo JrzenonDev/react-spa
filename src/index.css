@@ -20,11 +20,11 @@ a {
 }
 
 .nav {
-    background: #000;
+    background: #2296d3;
 }
 
 .nav a:hover {
-    background-color: #666;
+    background-color: #087ab7;
 }
 
 /*Small Smartphones*/
@@ -48,7 +48,30 @@ a {
     .buttonMob {
         order: 1;
         text-align: right;
-        padding: 5px 5% 5px 0;
+        padding: 8px 5% 8px 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+
+    .address {
+        padding: 10px 5%;
+        background: #087ab7;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        order: 3;
+    }
+
+    .address img {
+        vertical-align: middle;
+    }
+
+    .address strong {
+        font-size: 27px;
     }
 
 }
@@ -74,8 +97,32 @@ a {
     .buttonMob {
         order: 1;
         text-align: right;
-        padding: 5px 5% 5px 0;
+        padding: 9px 5% 9px 0;
     }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+
+    .address {
+        padding: 10px 5%;
+        background: #087ab7;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        order: 3;
+    }
+
+    .address img {
+        vertical-align: middle;
+    }
+
+    .address strong {
+        font-size: 27px;
+    }
+
 }
 
 /*Large Smartphones and Small notebooks*/
@@ -90,6 +137,29 @@ a {
 
     .buttonMob {
         display: none;
+    }
+
+    .logo {
+        float: left;
+        width: 30%;
+        padding: 15px 0 15px 10%;
+    }
+
+    .address {
+        float: left;
+        width: 70%;
+        padding: 20px 5% 10px 20%;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .address img {
+        vertical-align: middle;
+    }
+
+    .address strong {
+        color: #00d92b;
+        font-size: 27px;
     }
 }
 
@@ -106,6 +176,29 @@ a {
 
     .buttonMob {
         display: none;
+    }
+
+    .logo {
+        float: left;
+        width: 30%;
+        padding: 15px 0 15px 10%;
+    }
+
+    .address {
+        float: left;
+        width: 70%;
+        padding: 20px 5% 10px 20%;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .address img {
+        vertical-align: middle;
+    }
+
+    .address strong {
+        color: #00d92b;
+        font-size: 27px;
     }
 
 }
