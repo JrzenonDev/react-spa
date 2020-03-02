@@ -1,0 +1,7 @@
+- Utilizando o docker-compse.yaml modificado com apontamentos para os diretórios corretos da api da aplicação
+
+- O mesmo apontamento deve ser feito para os volumes de banco de dados.
+
+- no caso para poder testar os arquivos php, somente fazer: localhost
+
+
